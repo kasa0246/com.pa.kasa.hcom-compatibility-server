@@ -1,0 +1,34 @@
+{
+    "identifier": "com.pa.kasa.hcom-s17-compatibility",
+    "display_name": "H-COM compatibility patch",
+    "description": "Enables S17 addon without breaking buildbar UI.",
+    "author": "kasa",
+    "signature": " ",
+    "priority": 99,
+    "icon": "https://raw.githubusercontent.com/kasa0246/com.pa.kasa.hcom-server/icon/hcom-icon.png",
+    "forum": "https://github.com/kasa0246/com.pa.kasa.hcom-server/discussions",
+    "titansOnly": true,
+    "category": [
+        "balance",
+        "gameplay",
+        "addon",
+        "unit",
+        "titans"
+    ],
+    "context": "server",
+    "date": "2026-11-16",
+    "build": "124723",
+    "version": "1.0.0",
+    "dependencies": [
+        "com.pa.kasa.hcom-client",
+        "com.pa.kasa.hcom-server"
+    ],
+    "companions": [
+        "com.pa.kasa.hcom-client"
+    ],
+    "scenes": {
+        "shared_build": [
+            "coui://ui/mods/com.pa.kasa.hcom-server/shared_build_hcom_exp.js"
+        ]
+    }
+}
