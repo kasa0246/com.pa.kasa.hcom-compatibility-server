@@ -1,10 +1,10 @@
 {
-    "identifier": "com.pa.kasa.hcom-s17-compatibility",
+    "identifier": "com.pa.kasa.hcom-compatibility",
     "display_name": "H-COM compatibility patch",
-    "description": "Enables S17 addon without breaking buildbar UI.",
+    "description": "Enables SW & S17 addons without breaking buildbar UI.",
     "author": "kasa",
     "signature": " ",
-    "priority": 99,
+    "priority": 97,
     "icon": "https://raw.githubusercontent.com/kasa0246/com.pa.kasa.hcom-server/icon/hcom-icon.png",
     "forum": "https://github.com/kasa0246/com.pa.kasa.hcom-server/discussions",
     "titansOnly": true,

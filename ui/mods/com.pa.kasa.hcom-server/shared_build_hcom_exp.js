@@ -114,8 +114,11 @@ var newBuild = {
 	"/pa/units/sea/nuclear_sub/nuclear_sub.json": ["sea", 9, { row: 1, column: 6 }],
 	"/pa/units/sea/destroyer/destroyer.json": ["sea", 13, { row: 2, column: 1 }],
 	"/pa/units/sea/frigate/frigate.json": ["sea", 14, { row: 2, column: 2 }],
-	"/pa/units/sea/basic_missile_ship/basic_missile_ship.json": ["sea", 15, { row: 2, column: 3 }],
+	"/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json": ["sea", 15, { row: 2, column: 3 }],
 	"/pa/units/sea/attack_sub/attack_sub.json": ["sea", 18, { row: 2, column: 6 }],
+	//orbital
+	"/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital", 6, { row: 0, column: 1 }],
+
 	//utility
 	"/pa/units/land/orbital_shield/orbital_shield.json": ["utility", 0, { row: 0, column: 0 }],
 	"/pa/units/addon/shield_gen/shield_gen.json": ["utility", 5, { row: 1, column: 0 }],
@@ -125,11 +128,18 @@ var newBuild = {
 	"/pa/units/orbital/deep_space_radar/deep_space_radar.json": ["utility", 3, { row: 0, column: 2 }],
 	"/pa/units/paeiou/solar_cell/solar_cell.json": ["utility", 19, { row: 2, column: 5 }],
 	"/pa/units/land/wind_turbine/wind_turbine.json": ["utility", 20, { row: 1, column: 5 }],
-	"/pa/units/addon/fab_tower/fab_tower.json": ["utility", 21, { row: 0, column: 5 }],
+	//no build
+	"/pa/units/addon/system_radar/system_radar.json": ["utility", 0, { row: 2, column: 8 }],
+	//factory
+	"/pa/units/addon/fab_tower/fab_tower.json": ["factory", 0, { row: 1, column: 5 }],
+    "/pa/units/addon/adv_fab_tower/adv_fab_tower.json": ["factory", 0, { row: 0, column: 5 }],
+	"/pa/units/addon/adv_energy_storage/adv_energy_storage.json": ["utility", 0, { row: 1, column: 6 }],
+    "/pa/units/addon/adv_metal_storage/adv_metal_storage.json": ["utility", 0, { row: 2, column: 6 }],
+
 	//eperimental eco
-	"/pa/units/land/metal_destructor/metal_destructor.json": ["utility", 6, { row: 0, column: 6 }],
-	"/pa/units/addon/adv_metal_generator/adv_metal_generator.json": ["utility", 12, { row: 1, column: 6 }],
-	"/pa/units/land/t_metal_extractor_1/t_metal_extractor_1.json": ["utility", 18, { row: 2, column: 6 }],
+	"/pa/units/land/metal_destructor/metal_destructor.json": ["utility", 6, { row: 0, column: 7 }],
+	"/pa/units/addon/adv_metal_generator/adv_metal_generator.json": ["utility", 0, { row: 1, column: 7 }],
+	"/pa/units/land/t_metal_extractor_1/t_metal_extractor_1.json": ["utility", 18, { row: 2, column: 7 }],
 
 	//engines
 	"/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["endgame", 6, { row: 1, column: 0 }],
