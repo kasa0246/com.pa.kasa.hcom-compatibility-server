@@ -28,7 +28,7 @@
     ],
     "scenes": {
         "shared_build": [
-            "coui://ui/mods/com.pa.kasa.hcom-compatibility/shared_build_hcom_exp.js"
+            "coui://ui/mods/com.pa.kasa.hcom-compatibility/hcom_shared_build.js"
         ]
     }
 }
