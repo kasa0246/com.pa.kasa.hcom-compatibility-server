@@ -98,6 +98,7 @@ var newBuild = {
 	//tanks
 	"/pa/units/land/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 0, { row: 1, column: 0 }],
 	"/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 8, { row: 2, column: 0 }],
+	"/pa/units/land/tank_jammer/tank_jammer.json": ["vehicle", 30, { row: 1, column: 10 }],
 
 	"/pa/units/land/aom_tank/aom_tank.json": ["vehicle", 11, { row: 1, column: 6 }],
 	"/pa/units/paeiou/katrina/katrina.json": ["vehicle", 14, { row: 1, column: 7 }],
