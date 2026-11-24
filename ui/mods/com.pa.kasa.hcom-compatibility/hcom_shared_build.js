@@ -71,7 +71,7 @@ var newBuild = {
 	"/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 15, { row: 2, column: 4 }],
 	"/pa/units/land/nuke_launcher/nuke_launcher_ammo.json": ["ammo", 16, { row: 2, column: 5 }],
 	"/pa/units/land/nuke_launcher/nuke_launcher_up_ammo.json": ["ammo", 5, { row: 2, column: 6 }],
-	"/pa/units/land/missile_facility/large_DOT_ammo.json": ["ammo", 6, { row: 2, column: 7 }],
+	"/pa/units/land/missile_facility/large_dot_ammo.json": ["ammo", 6, { row: 2, column: 7 }],
 	"/pa/units/land/missile_facility/large_stun_ammo.json": ["ammo", 7, { row: 2, column: 8 }],
 	"/pa/units/land/missile_facility/precision_strike_ammo.json": ["ammo", 8, { row: 2, column: 9 }],
 	"/pa/units/land/orbital_shield/orbital_shield_ammo.json": ["ammo", 9, { row: 2, column: 10 }],
